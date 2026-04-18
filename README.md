@@ -1,4 +1,4 @@
-# Custom DNS Server Implementation using UDP with Recursive Query Forwarding
+# Custom DNS Server
 
 ## 📌 Project Overview
 This project implements a lightweight DNS server using UDP that resolves predefined domain names locally and supports recursive query forwarding. The server parses DNS requests, validates domain names, and efficiently handles multiple client queries using multithreading. If a domain is not found in local records, the query is forwarded to an upstream DNS server (Google DNS - 8.8.8.8), ensuring reliable and complete domain resolution.
@@ -44,7 +44,7 @@ pip install dnslib
 
 Clone the repository:
 ```
-git clone https://github.com/shivanshpap/Custom-DNS-Server-Implementation-using-UDP-with-Recursive-Query-Forwarding.git
+git clone https://github.com/shivanshpap/Custom-DNS-Server.git
 ```
 
 Navigate to project folder:
